@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color: black; color: white">
+    <h6>c:\ruta\Consola</h6>
+    <script>
+
+        //Manejo de variables
+        //LET solo existira en el contexto {}
+
+        if (true) {
+            let count = 10;
+            console.log("Valor de la variable count: " + count);
+        }
+
+        //console.log("Valor de la variable count: " + count);
+
+
+        //CONST con OBJETOS
+        const datos = { name: 'Pedro' };
+        datos.name = 'Carlos';
+
+
+
+        console.log("Valor de salida de datos: " + datos.name);
+
+        //datos = { name: 'Jose' };     //-- [X] ERROR: No permite modificacion de objetos, solo de valores directos
+        //console.log("nueva salida datos : " + datos.name);
+
+        //for (var i = 0; i < 3; i++) {
+        //    setTimeout(() => console.log(i), 100);
+        //}
+        // Imprime: 3, 3, 3
+
+        //for (let j = 0; j < 3; j++) {
+        //    setTimeout(() => console.log(j), 100);
+        //}
+
+        //console.log(z);
+        //var z = 35;
+
+
+        function greet() {
+            var message = 10;
+            console.log(message); // Hello
+        }
+        // console.log(message); // ReferenceError: message is not defined
+
+        const obj1 = { name: 'carlos' };
+        const obj2 = { name: 'carlos' };
+
+
+        //obj1 === obj2; // false
+        console.log(obj1 == obj2);
+
+        //OPERADOR BOLEANO
+
+        const value = "Hola Mundo";
+        const isString = !!value;
+        console.log(isString);
+
+        // SPREAD y REST
+
+        let frutas = ['Manzana', 'Pera', 'Durazno'];
+        let masfrutas = ['Uva', 'Fresa', 'Sandia'];
+
+        let allFrutas = [...frutas, ...masfrutas];
+
+        let alumnos = [
+            { nombre: 'Pedro', edad: '23' },
+            { nombre: 'Jose', edad: '24' },
+            { nombre: 'Carlos', edad: '28' }
+        ]
+
+        //console.log(allFrutas);
+
+        allFrutas.forEach((elemento) =>
+
+            console.log(elemento)
+
+        )
+    
+
+        alumnos.forEach((elemento) => console.log(`👤 el nombre es ${elemento.nombre}  y la edad es ${elemento.edad}`));
+
+    </script>
+</body>
+</html>

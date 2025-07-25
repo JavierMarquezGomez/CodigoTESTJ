@@ -1,0 +1,7 @@
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\bin\Debug\InyeccionConsol.exe.config
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\bin\Debug\InyeccionConsol.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\bin\Debug\InyeccionConsol.pdb
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\obj\Debug\InyeccionConsol.csproj.AssemblyReference.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\obj\Debug\InyeccionConsol.csproj.CoreCompileInputs.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\obj\Debug\InyeccionConsol.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\InyeccionConsol\obj\Debug\InyeccionConsol.pdb

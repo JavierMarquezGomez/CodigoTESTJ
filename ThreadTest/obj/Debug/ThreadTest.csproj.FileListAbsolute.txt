@@ -1,0 +1,7 @@
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\bin\Debug\ThreadTest.exe.config
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\bin\Debug\ThreadTest.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\bin\Debug\ThreadTest.pdb
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\obj\Debug\ThreadTest.csproj.AssemblyReference.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\obj\Debug\ThreadTest.csproj.CoreCompileInputs.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\obj\Debug\ThreadTest.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\ThreadTest\obj\Debug\ThreadTest.pdb

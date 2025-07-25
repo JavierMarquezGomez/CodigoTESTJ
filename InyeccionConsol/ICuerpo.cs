@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InyeccionConsol
+{
+    public interface  ICuerpo
+    {
+       
+        void Avanzar();
+        void Retroceder();
+        void Disparar();
+    }
+}

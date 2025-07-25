@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color: black ; color : white">
+    <h6>c:\ruta\Consola</h6>
+
+    <script>
+
+        console.log("impresion de mensaje console.")
+        console.log("Tipos de Datos");
+        //Tipos de datos
+        let edad = 30;               //Entero
+        let temperatura = -5.5;      //Decimal
+        let precio = 200.40          //Decimal
+
+        console.log("Edad: " + edad); 
+        console.log("Temperatura: " + temperatura);
+        console.log("precio: " + precio);
+
+        //Texto
+        console.log("Cadena de texto");
+        let nombre = "Blan";              //Comillas 
+        let apellido = "Corona";          //Comillas
+        let saludo = `Hola, ${nombre}!`;  //Template litera por interpolacion
+
+        console.log("Nombre: " + nombre);
+        console.log("apellido:" + apellido);
+        console.log("saludo: " + saludo);
+
+
+        //Boolean
+        let esMiembro = true;
+        let tieneAcceso = false;
+
+        if (esMiembro) {
+            console.log("esMiembro? :" + esMiembro);
+        }
+
+        //tipado dinamico
+        let variable = 100;
+        variable = false;
+        variable = "cien";
+        
+
+        console.log("El valor de la variable es: " + variable);
+
+        //Tipos especiales: ausencia de valor
+        // * undefined
+        //undefined generalmente indica algo que no ha sido inicializado
+        
+        let password;
+        console.log("Password: " +password);  //undefined
+        console.log("Tipo de dato Password: " + typeof (password));
+
+        // * Null
+        //null indica una ausencia intencional de valor
+        let varibaleNombre = null;
+        console.log("Valor de VaribaleNombre: " + varibaleNombre);
+
+        // Null para vaciar datos
+        let seleccionarUsuario = "Opcion 1";
+        seleccionarUsuario = null;
+        console.log("Valor de seleccionarUsuario: " + seleccionarUsuario);
+
+
+        //Objeto
+        let persona = {
+            nombre: "Ana",
+            edad: 2,
+            estudiante: true
+        }
+
+        console.log("Objeto Nombre: " + persona.nombre);
+        console.log("Objeto Edad: " + persona.edad);
+
+
+
+        //Verficacion de tipo de dato en JS
+        console.log(typeof "hola");  //String
+        console.log(typeof 23);      //number
+        console.log(typeof 23.5);    //Decimal
+        console.log(typeof true);    //boolean
+        console.log(typeof undefined); //undefined
+        console.log(typeof {});       //    Objetc
+        console.log(typeof null);    //null
+
+        //Symbol
+
+        const id = Symbol('id');
+        let usuario = {
+          nombre: 'Alice',
+          [id]: 12345  // Propiedad con Symbol como clave
+        };
+
+        console.log(usuario.nombre);  // "Alice"
+        console.log(usuario[id]);     // 12345
+
+
+        //BigInit
+
+        const numeroGrande = 223484387484387848484494n
+        const numeroMasGrande = BigInt('48457574858488583839399494949434')
+
+        console.log(numeroGrande +1n);
+        console.log(numeroMasGrande + 1n);
+
+
+        //Paso por Valor
+        console.log("Paso por Valor");
+        let x = 10;
+        let y = x;
+
+        y = 20;
+
+        console.log("El valor de Y es : " + y);
+        console.log("El valor de X es : " +x);
+
+        //Paso por referencia 
+        console.log("Paso por referencia");
+        let obj1 = { mensaje: 'Hola' };
+        let obj2 = obj1;
+
+        //Modificando obj2, afectando directamente  obj1
+        obj2.mensaje = 'Adios';
+
+
+
+        console.log("Valor de obj1: " + obj1.mensaje);
+        console.log("Valor de obj2: " + obj2.mensaje);
+         
+
+
+        // Converiones de Datos
+
+        let a = "455";
+        let b = parseInt(a);
+
+
+        console.log("Valor de v : " +b);
+
+
+
+
+    </script>
+</body>
+</html>

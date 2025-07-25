@@ -1,0 +1,7 @@
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\bin\Debug\Asincrono.exe.config
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\bin\Debug\Asincrono.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\bin\Debug\Asincrono.pdb
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\obj\Debug\Asincrono.csproj.AssemblyReference.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\obj\Debug\Asincrono.csproj.CoreCompileInputs.cache
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\obj\Debug\Asincrono.exe
+C:\Users\Javier Marquez\Downloads\Dev\InyeccionConsol\Asincrono\obj\Debug\Asincrono.pdb
