@@ -17,6 +17,8 @@ namespace AbstractConsole
             Console.WriteLine("Resultado Area = "  +z.ToString());
             Console.WriteLine("Resultado suma = " + hip.ToString());
             Console.WriteLine("Termina proceso");
+            Console.WriteLine("");
+            Console.WriteLine("-....");
             Console.ReadKey();
 
         }
