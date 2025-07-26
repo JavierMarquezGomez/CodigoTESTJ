@@ -18,7 +18,7 @@ namespace AbstractConsole
             Console.WriteLine("Resultado suma = " + hip.ToString());
             Console.WriteLine("Termina proceso");
             Console.WriteLine("");
-            Console.WriteLine("-....");
+            Console.WriteLine("Fin de codigo");
             Console.ReadKey();
 
         }
